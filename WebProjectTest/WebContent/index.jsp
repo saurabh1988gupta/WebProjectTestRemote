@@ -28,7 +28,7 @@
   </div>
 
   <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in - Feature_1</a>.</p>
+    <p>Already have an account? <a href="#">Sign in - Feature_3</a>.</p>
   </div>
 </form>
 </body>
