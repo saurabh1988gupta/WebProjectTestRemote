@@ -13,6 +13,7 @@
        </dependency>
    </dependencies>
   <build>
+  	<finalName>web-project-dev-ops</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
