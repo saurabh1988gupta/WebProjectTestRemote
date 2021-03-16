@@ -1,2 +1,4 @@
-docker container run -d -p 8084:8080 tomcat:jdk8
-docker cp '../Maven-Build/WebProjectTest/target/web-project-dev-ops.war' 87d376f008cc:'/usr/local/tomcat/webapps/'
+FROM tomcat:8.0-alpine
+LABEL maintainer=”saurabh1988gupta@gmail.com”
+ADD ../Maven-Build/WebProjectTest/target/web-project-dev-ops.war /usr/local/tomcat/webapps/
+EXPOSE 8084
